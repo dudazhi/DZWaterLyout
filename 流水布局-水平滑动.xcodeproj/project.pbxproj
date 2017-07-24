@@ -15,6 +15,7 @@
 		E6744E001F242208009991F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6744DFE1F242208009991F2 /* LaunchScreen.storyboard */; };
 		E6744E0B1F242209009991F2 /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6744E0A1F242209009991F2 /* _________Tests.m */; };
 		E6744E161F242209009991F2 /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6744E151F242209009991F2 /* _________UITests.m */; };
+		E6744E251F24311B009991F2 /* DZCollectionViewFloeLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E6744E241F24311B009991F2 /* DZCollectionViewFloeLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E6744E111F242209009991F2 /* 流水布局-水平滑动UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "流水布局-水平滑动UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6744E151F242209009991F2 /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
 		E6744E171F242209009991F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6744E231F24311B009991F2 /* DZCollectionViewFloeLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZCollectionViewFloeLayout.h; sourceTree = "<group>"; };
+		E6744E241F24311B009991F2 /* DZCollectionViewFloeLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZCollectionViewFloeLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				E6744DFE1F242208009991F2 /* LaunchScreen.storyboard */,
 				E6744E011F242208009991F2 /* Info.plist */,
 				E6744DF01F242208009991F2 /* Supporting Files */,
+				E6744E231F24311B009991F2 /* DZCollectionViewFloeLayout.h */,
+				E6744E241F24311B009991F2 /* DZCollectionViewFloeLayout.m */,
 			);
 			path = "流水布局-水平滑动";
 			sourceTree = "<group>";
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					E6744DEC1F242208009991F2 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 44P5AG7E2A;
 						ProvisioningStyle = Automatic;
 					};
 					E6744E051F242208009991F2 = {
@@ -273,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6744E251F24311B009991F2 /* DZCollectionViewFloeLayout.m in Sources */,
 				E6744DF81F242208009991F2 /* ViewController.m in Sources */,
 				E6744DF51F242208009991F2 /* AppDelegate.m in Sources */,
 				E6744DF21F242208009991F2 /* main.m in Sources */,
@@ -426,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 44P5AG7E2A;
 				INFOPLIST_FILE = "流水布局-水平滑动/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-739002833-qq.com.---------";
@@ -437,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 44P5AG7E2A;
 				INFOPLIST_FILE = "流水布局-水平滑动/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-739002833-qq.com.---------";
